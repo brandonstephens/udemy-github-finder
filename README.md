@@ -10,3 +10,9 @@ Font Awesome API
 Github API
 
 * <https://github.com/settings/applications/1201053>
+
+## Setup
+
+1. `nvm use`
+2. `npm install`
+3. `npm start`
