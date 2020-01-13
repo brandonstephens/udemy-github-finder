@@ -3,17 +3,15 @@ import Search from '../users/Search'
 import Alert from '../layout/Alert'
 import Users from '../users/Users'
 
-const Home = props => {
-  return (
-    <>
-      <div className="container">
-        <Search />
-        <Alert />
-      </div>
+const Home = props => (
+  <>
+    <div className="container">
+      <Search />
+      <Alert />
+    </div>
 
-      <Users />
-    </>
-  )
-}
+    <Users />
+  </>
+)
 
 export default Home
