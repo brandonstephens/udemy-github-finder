@@ -1,7 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { useContext } from 'react'
 
-const Alert = ({ alert }) => {
+import AlertContext from '../../context/alert/alertContext'
+
+const Alert = () => {
+  const alertContext = useContext(AlertContext)
+  const { alert } = alertContext
+
   return (
     <>
       {alert !== null && (
@@ -11,10 +15,6 @@ const Alert = ({ alert }) => {
       )}
     </>
   )
-}
-
-Alert.propTypes = {
-  alert: PropTypes.object,
 }
 
 export default Alert
