@@ -2,6 +2,8 @@
 
 <https://www.udemy.com/course/modern-react-front-to-back/>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/871447bc-7de5-443b-a040-e86f03014663/deploy-status)](https://app.netlify.com/sites/youthful-leavitt-95be8c/deploys)
+
 ## Setup
 
 Make an app on https://github.com/settings/applications
