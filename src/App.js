@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import './App.css'
-import Navbar from './components/layout/Navbar'
-import Users from './components/users/Users'
-import User from './components/users/User'
-import Search from './components/users/Search'
 import axios from 'axios'
-import Alert from './components/layout/Alert'
+import './App.css'
 import About from './components/pages/About'
+import Alert from './components/layout/Alert'
+import Navbar from './components/layout/Navbar'
+import Search from './components/users/Search'
+import User from './components/users/User'
+import Users from './components/users/Users'
 
 const App = props => {
   const [users, setUsers] = useState([])
@@ -55,11 +55,7 @@ const App = props => {
   }
 
   const setAlertWithTimeout = (msg, type) => {
-    setAlert({
-      msg,
-      type,
-    })
-
+    setAlert({ msg, type })
     setTimeout(() => setAlert(null), 5000)
   }
 
