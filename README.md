@@ -11,6 +11,8 @@ Make an app on https://github.com/settings/applications
 1. `touch .env.local`
 2. add client id and secret to `.env.local`
 
+---
+
 3. `nvm use`
 4. `npm install`
 5. `npm start`
